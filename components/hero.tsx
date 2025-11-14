@@ -1,26 +1,35 @@
-import { Button } from '@/components/ui/button'
-import Image from 'next/image'
+import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="pt-32 pb-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-accent/30 to-background">
+    <section className="pt-32 pb-12 px-4 sm:px-6 lg:px-8 bg-linear-to-b from-accent/30 to-background">
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <div className="space-y-2">
               <h1 className="text-5xl md:text-6xl font-bold text-foreground leading-tight">
-                Your <span className="text-primary">Friendly</span> Solana Companion
+                Your <span className="text-primary">Friendly</span> Solana
+                Companion
               </h1>
               <p className="text-xl text-muted-foreground">
-                Meet $MATE: The meme token that's all about community, friendship, and having a great time together.
+                Meet $MATE: The meme token that's all about community,
+                friendship, and having a great time together.
               </p>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold">
+              <Button
+                size="lg"
+                className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold"
+              >
                 Buy $MATE on Raydium
               </Button>
-              <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary/10">
+              <Button
+                size="lg"
+                variant="outline"
+                className="border-primary text-primary hover:bg-primary/10"
+              >
                 View Contract
               </Button>
             </div>
@@ -47,5 +56,5 @@ export default function Hero() {
         </div>
       </div>
     </section>
-  )
+  );
 }

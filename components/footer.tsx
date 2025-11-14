@@ -1,4 +1,4 @@
-import { Heart } from 'lucide-react'
+import { Heart } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -8,31 +8,69 @@ export default function Footer() {
           <div>
             <h3 className="font-bold text-foreground mb-4">CryptoMate</h3>
             <p className="text-sm text-muted-foreground">
-              A community-driven meme token built on Solana with friendship at its core.
+              A community-driven meme token built on Solana with friendship at
+              its core.
             </p>
           </div>
           <div>
             <h4 className="font-semibold text-foreground mb-4">Quick Links</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li><a href="#" className="hover:text-primary transition-colors">Buy $MATE</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Whitepaper</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Contract</a></li>
+              <li>
+                <a href="#" className="hover:text-primary transition-colors">
+                  Buy $MATE
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-primary transition-colors">
+                  Whitepaper
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-primary transition-colors">
+                  Contract
+                </a>
+              </li>
             </ul>
           </div>
           <div>
             <h4 className="font-semibold text-foreground mb-4">Community</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li><a href="#" className="hover:text-primary transition-colors">Discord</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Twitter</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Telegram</a></li>
+              <li>
+                <a
+                  href="https://x.com/CryptoMate1B"
+                  className="hover:text-primary transition-colors"
+                >
+                  X
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://t.me/cryptomate1b"
+                  className="hover:text-primary transition-colors"
+                >
+                  Telegram
+                </a>
+              </li>
             </ul>
           </div>
           <div>
             <h4 className="font-semibold text-foreground mb-4">Legal</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li><a href="#" className="hover:text-primary transition-colors">Terms</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Privacy</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Disclaimer</a></li>
+              <li>
+                <a href="#" className="hover:text-primary transition-colors">
+                  Terms
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-primary transition-colors">
+                  Privacy
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-primary transition-colors">
+                  Disclaimer
+                </a>
+              </li>
             </ul>
           </div>
         </div>
@@ -51,5 +89,5 @@ export default function Footer() {
         </div>
       </div>
     </footer>
-  )
+  );
 }
