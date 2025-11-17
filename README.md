@@ -169,7 +169,7 @@ To enhance your GitHub presence:
 Example badge for live site:
 
 ```markdown
-[![Deploy with Vercel](https://vercel.com/button)](https://your-site.vercel.app)
+[![Deploy with Vercel](https://www.cryptomate.website/)]
 ```
 
 ## 💼 LinkedIn Post Template
